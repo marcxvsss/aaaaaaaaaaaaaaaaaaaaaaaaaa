@@ -26,13 +26,13 @@ main#main > .sekcje {
     gap: 10px;
 }
 
-.sekcja1 {
+#sekcja1 {
     background-color: #9FA8DA;
     height: 300px;
     padding: 10px;
 }
 
-.sekcja2 {
+#sekcja2 {
     background-color: #7986CB;
     height: 300px;
     padding: 10px;
@@ -45,3 +45,4 @@ main#main > .sekcje {
     text-align: center;
     margin-top: 20px;
 }
+
