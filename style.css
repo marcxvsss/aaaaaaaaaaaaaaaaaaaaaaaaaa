@@ -1,60 +1,47 @@
 * {
     font-family: "Trebuchet MS", sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-#aside {
+main#main {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+aside#bok {
     background-color: #C5CAE9;
-    width: 40%;
-    height: 600px;
+    width: 30%;
+    min-height: 600px;
     overflow: auto;
-    padding: 15px;
+    padding: 10px;
 }
 
-#sekcja1, 
-#sekcja2 {
-    width: 60%;
-    height: 300px;
-    padding: 15px;
+main#main > .sekcje {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 10px;
 }
 
-#sekcja1 {
+.sekcja1 {
     background-color: #9FA8DA;
+    height: 300px;
+    padding: 10px;
 }
 
-#sekcja2 {
+.sekcja2 {
     background-color: #7986CB;
+    height: 300px;
+    padding: 10px;
 }
 
 #footer {
     background-color: #283593;
-    color: #ffffff;
+    color: white;
     padding: 20px;
     text-align: center;
-}
-
-.opona {
-    background-color: #9FA8DA;
-    margin: 40px;
-    border: 2px dotted #283593;
-    border-radius: 30px;
-    padding: 15px;
-}
-
-img {
-    float: left;
-    margin: 20px;
-}
-
-h2 {
-    text-align: center;
-    margin: 0;
-    padding: 15px;
-}
-
-h3 {
-    background-color: #7986CB;
-    color: #ffffff;
-    font-size: 140%;
-    padding: 10px;
+    margin-top: 20px;
 }
